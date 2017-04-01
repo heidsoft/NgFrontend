@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="zabbix-frontend">
+    <serverData>
+      <paths name="zabbix-frontend">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/zabbix-frontend" local="$PROJECT_DIR$" web="/zabbix-frontend" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
