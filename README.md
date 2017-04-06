@@ -1,4 +1,7 @@
-# zabbix-frontend
+# zabbix-frontend 
+
+基于React 
+基于ant
 zabbix-frontend
 
 #nginx 
