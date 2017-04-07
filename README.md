@@ -1,26 +1,27 @@
-# zabbix-frontend 
+# ngcloud-frontend 
 
+```
 基于React 
 基于ant
-zabbix-frontend
+```
 
-#nginx 
+# nginx 
 ```
 
 /usr/local/etc/nginx/nginx.conf
 ```
 
-#php
+# php
 ```
 /usr/local/Cellar/php56/5.6.22/sbin
 ```
 
-#调试
+# 调试
 ```
 https://www.apachefriends.org/zh_cn/download.html
 ```
 
-#app
+# app
 ``
 npm install --save redux
 npm install --save react-redux
@@ -46,8 +47,10 @@ https://github.com/dvajs/dva-docs/blob/master/v1/en-us/getting-started.md
 https://ant.design/docs/react/practical-projects-cn
 ``
 
-#jsx
-``
+# jsx
+```
+
 npm install -g react-tools
 jsx --watch src/ build/
-``
+
+```
