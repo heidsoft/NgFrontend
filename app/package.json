@@ -14,7 +14,7 @@
     "react-scripts": "0.9.5"
   },
   "scripts": {
-    "server": "cd server && json-server db.json -w -p 3000",
+    "server": "cd server && json-server db.json -w -p 4000",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",

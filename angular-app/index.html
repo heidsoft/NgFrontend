@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html ng-app="timeoutApp">
+<head>
+	<title>angularjs-app</title>
+	<script type="text/javascript" src="node_modules/angular/angular.js"></script>
+	<script type="text/javascript">
+
+	(function() {
+	    'use strict';
+	    angular
+	        .module('app')
+	        .factory('logger', logger);
+	    function logger() { }
+	})();
+
+	  var timeoutApp = angular.module('timeoutApp',[]);
+      timeoutApp.run(function($timeout){
+          var a = $timeout(function(){
+              console.log('执行$timeout回调');
+              return 'angular'
+          },1000);
+
+          console.log(a);
+
+          a.then(function(data){
+              console.log(data)
+          },function(data){
+              console.log(data)
+          });
+          //$timeout.cancel(a);
+      })
+	</script>
+</head>
+<body>
+<div>测试angular</div>
+<label>test1-lable</label>
+<label>test2-lable</label>
+</body>
+</html>
+
